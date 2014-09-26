@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, DETAILS, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+input {
+        -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;      
+}
+
+body {
+	line-height: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#topmenudiv {
+    float: right;
+    display: block;
+    
+}
+
+#topmenudiv ul {
+    margin: 0;
+    padding: 0 60px;;
+    margin-right: 100px;
+    color: #272727;
+}
+
+#topmenudiv li {
+    list-style: none;
+    display: inline-block;
+    padding: 40px 80px 0 0;
+    position: relative;
+    font-size: 0.9em;
+    height: 100px;
+    width: 40;
+    margin-right: -70px;
+    top: -18px;
+    
+}
+
+#topmenudiv ul li a {
+    
+    
+}
+
+
+
+    
+
+
+
+#topmenu {
+       background-image: url(images/grid.png);
+    float: right;
+    background-position: right;
+    background-repeat: no-repeat
+    
+    
+}
+
+#button {
+    height: 30px;
+    width: 70px;
+    border-color: #4683EB;
+    background-color: #4684EF;
+    border-style: solid;
+    border-width: px;
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    margin-right: -340px;
+    border-radius: 3px;
+     
+
+    }
+
+p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 7px;
+    font-size: 0.9em;
+}
+
+
+#grid img {
+               float: right;
+            padding: 30px 0 0 1400px;
+            position: absolute;
+            top: -12px;
+                margin-left: -100px;
+            display: inline-block;
+         height: 23px;
+        
+        }
+
+
+.break {
+       clear: 
+}
+
+#googleimage  {
+              clear: both;
+                margin: 35%;
+           
+            
+            
+}
+
+#googleimage img {
+  width:60%;
+  height: auto;
+    margin-top: 50px ;
+  padding-left: 85px;
+    position: relative;
+}
+
+
+
+fieldset input  {
+    position: relative;
+    margin-left: 30%;
+    padding: 0px;
+    width: 40%;
+    top: -480px;
+    height: 27px;
+    background-image: url(images/microphone.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 23px;
+    border: 1px solid blue;
+}
+
+#search {
+    height: 27px;
+    width: 100px;
+    background-color: #F3F3F3;
+      border-style: solid;
+    border-width: 1px;
+    position: relative;
+    margin-top:-99px;
+    margin-left: 612px;
+    top: -370px;
+    border-radius: 2px;
+     border-style: none;
+}
+
+ #search p {
+    text-align: center;
+    color: #222256;
+    font-size: 0.7em;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+#lucky {
+    height: 27px;
+    width: 110px;
+    background-color: #f3f3f3;
+    border-style: none;
+    position: relative;
+    margin-top: -396px;
+    margin-left: 725px;
+}
+
+ #lucky p {
+    text-align: center;
+    color: #222256;
+    font-size: 0.7em;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 11px;
+    margin:auto;
+     padding-top: 9px;
+     font-weight: bold;
+     
+}
+
+
+
+#navbar {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 44px;
+    clear: both;
+    
+}
+
+#navbardiv li {
+    display: inline-block;
+    position: relative;
+    margin-top: 6px;
+
+        
+}
+
+#navbardiv ul {
+    color: #666666;
+    padding-top: 10px;
+    font-size: 14px;
+    margin-left: 32px;
+}
+
+#right li {
+    display: inline-block;
+    
+    
+    
+}
+
+#right ul {
+    color: #666666;
+    position: relative;
+    top: -60px;
+    float:right;
+    margin-right: 30px;
+
+    
+    
+}
+
+ul li.csv {
+    margin: 30px;
+}
+
+ul li.setting {
+    position: absolute;
+    margin-right: 30px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    padding-top: 26%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+
+body ul li a:hover {
+    text-decoration: underline;
+}
